@@ -1,7 +1,17 @@
 body{
-	background-color: black; 
+	background-color: black;
 	font-family: monospace;
-	font-size: 200%;
+	font-size: 150%;
+	}
+	#headericon{
+		float:left;
+		width: 70px;
+	}
+	#logo{
+		color:white;
+		font-family: sans-serif;
+		font-size: 100%;
+		padding: 25px;
 	}
 
 #topic {

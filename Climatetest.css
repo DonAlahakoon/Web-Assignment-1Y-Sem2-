@@ -1,36 +1,32 @@
 body{
 	background-color: black;
-	font-family: monospace;
-	font-size: 150%;
-	}
-	#headericon{
-		float:left;
-		width: 70px;
-	}
-	#logo{
-		color:white;
-		font-family: sans-serif;
-		font-size: 100%;
-		padding: 25px;
+	background-image:url("images/spc5.jpg");
+	font-family:verdana;
 	}
 
+#mq{
+	color:white;
+	font-size:25px;
+	font-weight:bold;
+}
+
 #topic {
+	font-family: Helvetica, sans-serif;
+	font-size:150px;
 	text-align:center;
 	color:white;
+	margin: 25px 0px 50px 0px;
 	//float:center;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #F0FFFF;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  font-family: "Times New Roman";
-  font-size: 70%;
+#topic1 {
+	font-family: Helvetica, sans-serif;
+	font-size:150px;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+	margin: 0px 0px 0px 0px;
 }
+
 p{
 	color:white;}
 
@@ -39,29 +35,74 @@ p{
   margin-left: auto;
   margin-right: auto;
   padding: 0px 0px 0px 0px;
-  width: 1000px;
-  height: 400px;
+  width: 1200px;
+  height: 500px;
 }
-li {float:left;}
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover{
-	background-color: green;}
-#quote{
-	display: block;
-  color: black;
-  float: right;
-  text-align: right;
-  padding: 14px 16px;
+
+/* Dropdown*/
+ li{
+		transition-duration: 0.7s;
 	}
-#quote1{
-	display: block;
-  color: black;
-  text-align: right;
-  padding: 14px 310px;
+	li a:hover{
+		cursor:pointer;}
+		
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	font-family: Verdana;
+	font-weight:bold;
+	font-size: 100%;
 	}
+	
+	
+	ul li {
+		background-color:white;
+		width:100px;
+		height:50px;
+		line-height:50px;
+		display:inline;
+		float: left;
+		padding-left: 10px;
+		}
+		
+	ul li:hover {
+		background-image:url("images/spc.jpg");
+		color:white;
+		}
+		
+	#topics:hover {
+		width:240px;}
+	/*#quo{
+		width:820px;
+		text-align:right;
+		padding-right:10px;}*/
+		
+	ul ul{
+		display:none;
+		}
+	ul li ul{
+		float:right;}
+	
+	ul li:hover>ul{
+		display:block;
+		}
+	ul li ul li{
+		width: 240px;
+		}
+	
+	li a{
+	display:block;
+	text-decoration:none;
+	color:black;}
+	
+	li :hover{
+	color:white;
+	}
+
+
+

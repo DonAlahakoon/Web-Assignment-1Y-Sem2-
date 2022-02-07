@@ -3,6 +3,15 @@ body{
 	background-image:url("images/spc5.jpg");
 	font-family:verdana;
 	}
+/*site logo*/
+#logo{
+	z-index: 500;
+	position: absolute;
+	left: 43%;
+	top: 0px;
+	width:150px;
+	height:65px;
+}
 
 #mq{
 	color:white;

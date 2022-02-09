@@ -6,62 +6,107 @@
   </head>
 
   <style>
-  #container
-  {
-    width:1500px;
-    height:3000px;
-    margin:0px;
-  }
-  #heading
-  { color: green;
-    padding:25px;
-  }
-  #headericon
-  {
-    float:left;
-    width:60px;
-  }
-  #header
-  {
-    width:1500px;
-    height:150px;
-    background-color:;
-    border-bottom:5px solid green;
-  }
-  #pageSec ul
-  {
+          #container
+          {
+            width:1500px;
+            height:3000px;
+            margin:0px;
+          }
+          #heading
+          { color: green;
+            padding:25px;
+          }
+          #headericon
+          {
+            float:left;
+            width:60px;
+          }
+          #header
+          {
+            width:1500px;
+            height:150px;
+            background-color:;
+            border-bottom:5px solid green;
+          }
+          #footer
+          {
+            width:1500px;
+            height:500px;
+            background-image:url(images/milkyway.jpg);
+          }
+          #pageSec ul
+          {
 
-    float:right;
-    clear: left;
-  }
-  #pageSec ul li
-  {
-    display:inline;
-    font-size: 20px;
-    padding:10px 30px;
-    border-radius: 0.25cm;
-    border: 1.5px solid green;
-  }
-  #pageSec a
-  {
-    text-decoration:none;
-    color: green;
+            float:right;
+            clear: left;
+          }
+          #pageSec ul li
+          {
+            display:inline;
+            font-size: 20px;
+            padding:10px 30px;
+            border-radius: 0.25cm;
+            border: 1.5px solid green;
+          }
+          #selected
+          {
+            background-color: MediumSeaGreen;
+          }
+          #selected a
+          {
+            text-decoration: none;
+            color: white;
+          }
+          #pageSec a
+          {
+            text-decoration:none;
+            color: green;
 
-  }
-  #pageSec a:hover
-  {
-    text-decoration: none;
-    color:white;
-  }
-  #pageSec ul li:hover
-  {
-    background-color: MediumSeaGreen;
-  }
-  #body{
-    clear: right;
-    text-align: center;
-    color: green;
-  }
+          }
+          #pageSec a:hover
+          {
+            text-decoration: none;
+            color:white;
+          }
+          #pageSec ul li:hover
+          {
+            background-color: MediumSeaGreen;
+          }
+          #body{
+            clear: right;
+            text-align: center;
+            color: green;
+          }
+          #pageHeading{
+            font-family: cursive;
+            clear: right;
+            text-align: center;
+          }
+          .dropdown {
+            position:relative;
+            display:inline-block;
+            color:gold;
+          }
+          .dropdown-content
+          {
+            display:none;
+            position:absolute;
+            min-width: 500px;
+            min-height: 500px;
+            background-color: chocolate;
+            color: white;
+          }
+          .dropdown:hover .dropdown-content
+          {
+            display:block;
+          }
+          .para{
+            font-size: 20px;
+          }
+          .img{
+            height:500px;
+            width: 1500px;
+          }
 
   </style>
 
@@ -72,20 +117,70 @@
     <h2 id="heading">ProtectEarth</h2>
     <div id="pageSec">
     <ul>
-    <li><a href="ClimateChange.html">Home</a></li>
-    <li><a href="whatIsCC.html">What is climate change</a></li>
-    <li><a href="CurrentThreats.html">Current Threats</a></li>
-    <li><a href="WhatCanWeDo.html">What can we do?</a></li>
-    <li><a href="#">...</a></li>
+      <li><a href="ClimateChange.html">Home</a></li>
+      <li><a href="whatIsCC.html">What is climate change</a></li>
+      <li  id="selected"><a href="CurrentThreats.html" id="dropdown">Current Threats</a>
+        <div class="dropdown-content">
+          <a href="#GW">Global Warming</a>
+          <a href="#D">Deforestation</a>
+          <a href="#AP">Air Pollution</a>
+          <a href="#OA">Ocean Acidification</a>
+          <a href="#OD">Ozone layer depletion</a>
+        </div>
+
+      </li>
+      <li><a href="WhatCanWeDo.html">What can we do?</a></li>
+      <li><a href="#">...</a></li>
     </ul>
   </div>
  </div>
 
 <div id="body">
-<h2>What are current Threats?</h2>
+<h1 id="pageHeading">What are current Threats?</h1>
+<div class="para">
+  <p>Our environment faces several problems, and many of these seem to be worsening with time, bringing us into a time of a
+    true environmental crisis. It is therefore becoming increasingly important to raise awareness of the existence of these issues,
+    as well as what can be done to reduce their negative impact. Some of the key issues are:</p>
+</div>
+      <div class="para" id="GW">
+        <h2>Global warming</h2>
+        <img src="images/iceberg2.jpg" alt="glacierMelt image" class="img"/>
+        <p>Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities,
+           primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere.The emission of greenhouse gases due to human activity
+            causes global warming, which in turn causes an increase in temperature
+          that then leads to rising sea levels, melting of polar ice caps, flash floods and desertification.</p>
+      </div>
+      <div class="para" id="D">
+        <h2>Deforestation</h2>
+        <img src="images/Deforestation.jpg" class="img"/>
+        <p>Deforestation or forest clearance is the removal of a forest or stand of trees from land that is then converted to non-forest use.Deforestation can involve conversion of forest land to farms, ranches, or urban use. The most concentrated deforestation occurs in tropical rainforests. About 31% of Earth's land surface is covered by forests at present. This is one-third less than the forest cover before the expansion of agriculture, a half of that loss occurring in the last century.Between 15 million to 18 million hectares of forest, an area the size of Belgium, are destroyed every year. On average 2,400 trees are cut down each minute. The Food and Agriculture Organization of the United Nations defines deforestation as the conversion of forest to other land uses (regardless of whether it is human-induced). "Deforestation" and "forest area net change" are not the same: the latter is the sum of all forest losses (deforestation) and all forest gains (forest expansion) in a given period. Net change, therefore, can be positive or negative, depending on whether gains exceed losses, or vice versa. The removal of trees without sufficient reforestation has resulted in habitat damage, biodiversity loss, and aridity. Deforestation causes extinction, changes to climatic conditions, desertification, and displacement of populations, as observed by current conditions and in the past through the fossil record. Deforestation also reduces biosequestration of atmospheric carbon dioxide, increasing negative feedback cycles contributing to global warming. Global warming also puts
+        increased pressure on communities who seek food security by clearing forests for agricultural use and reducing arable land more generally.
+         Deforested regions typically incur significant other environmental effects such as adverse soil erosion and degradation into wasteland.</p>
+       </div>
+       <div class="para" id="AP">
+         <h2>Air pollution</h2>
+         <img src="images/co2.jpg" class="img"/>
+         <p>Air pollution refers to the release of pollutants into the air—pollutants which are detrimental to human health and the planet as a whole. According to the World Health Organization (WHO), each year air pollution is responsible for nearly seven million deaths around the globe. Nine out of ten human beings currently breathe air that exceeds the WHO’s guideline limits for pollutants, with those living in low- and middle-income countries suffering the most. In the United States, the Clean Air Act, established in 1970, authorizes the U.S. Environmental Protection Agency (EPA) to safeguard public health by regulating the emissions of these harmful air pollutants.
+         The effects of air pollution on the human body vary depending on the type of pollutant and the length and level of exposure—as well as other factors, including a person’s individual health risks and the cumulative impacts of multiple pollutants or stressors.</P>
+       </div>
+       <div class="para" id="OA">
+         <h2>Ocean Acidification</h2>
+         <img src="images/ocean.jpg" class="img"/>
+         <p>Carbon dioxide, which is naturally in the atmosphere, dissolves into seawater. Water and carbon dioxide combine to form carbonic acid (H2CO3), a weak acid that breaks (or “dissociates”) into hydrogen ions (H+) and bicarbonate ions (HCO3-).
+           Because of human-driven increased levels of carbon dioxide in the atmosphere, there is more CO2 dissolving into the ocean. The ocean’s average pH is now around 8.1offsite link, which
+           is basic (or alkaline), but as the ocean continues to absorb more CO2, the pH decreases and the ocean becomes more acidic.
+         </p>
+       </div>
+       <div class="para" id="OD">
+         <h2>Ozone layer Depletion</h2>
+         <img src="images/sky.jpg" class="img"/>
+         <p>ozone depletion, gradual thinning of Earth’s ozone layer in the upper atmosphere caused by the release of chemical compounds containing gaseous chlorine or bromine from industry and other human activities. The thinning is most pronounced in the polar regions, especially over Antarctica. Ozone depletion is a major environmental problem because it increases the amount of ultraviolet (UV) radiation that reaches Earth’s surface, which increases the rate of skin cancer, eye cataracts, and genetic and immune system damage. The Montreal Protocol, ratified in 1987, was the first of several comprehensive international agreements enacted to halt the production and use of ozone-depleting chemicals. As a result of continued international cooperation on this issue, the ozone layer is expected to recover over time.
+         </p>
 
 
 </div>
+</div>
+<div id="footer">
 </div>
     </body>
 

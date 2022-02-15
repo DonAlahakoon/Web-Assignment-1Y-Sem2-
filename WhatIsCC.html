@@ -29,7 +29,7 @@
     }
     #pageSec ul
     {
-      float:right;
+      float:left;
       clear: left;
     }
     #pageSec ul li
@@ -52,14 +52,45 @@
     }
     #pageSec ul li:hover
     {
-      background-color: MediumSeaGreen;
+      background-color:mediumseagreen;
     }
-    #body
+    #topic
     {
       clear: right;
       text-align: center;
       color: green;
+      font-size:25px;
     }
+    #content
+    {
+     color:green;
+     font-size:20px;
+     padding-left:5em;
+     padding-right:5em;
+     text-align:center;
+     }
+    .heading
+    {
+     color:green;
+     padding-left:1em;
+    }
+    img.human
+    {
+     width:500px;
+     height:400px;
+     float:left;
+    }
+    p.activities
+    {
+     font-size:25px;
+     margin:80px;
+     padding-top:2em;
+     padding-left:2em;
+     padding-right:1em;
+     padding-bottom:2em;
+     border:5px solid red;
+     overflow:hidden;
+     }
     </style>
   <body>
     <div id="container">
@@ -77,15 +108,24 @@
           </div>
         </div>
 
-        <div id="body">
-          <h2>What is Climate Change?</h2>
-
-
-      </div>
-
-
-
-    </div>
+            <div id="topic">
+            <h2>What is Climate Change?</h2>
+            </div>
+             
+              <div style="text-align:center;">
+              <img src="images/change.jpg"/>
+              </div>
+         
+            <div id="content">
+                <p>If we define Climate,Climate is the average weather in a place over many years. Climate change is a shift in those average conditions or Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle. 
+                </div>
+             <h2 class="heading">Causes for Climate change</h2>
+             <img src="images/human.jpg" class="human"/>    
+             <p class="activities">       
+             &nbsp;&nbsp;&nbsp;&nbsp;"Human activities have been the main driver of climate change",</br> primarily due to burning fossil fuels like coal, oil and gas.This addsenormous amounts of greenhouse gases to those naturally occurring in the atmosphere,increasing the greenhouse effect and global warming.
+            </p>
+            
+     </div>
 
   </body>
 </html>

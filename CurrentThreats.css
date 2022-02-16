@@ -1,0 +1,105 @@
+  #container
+  {
+    width:1500px;
+    height:3000px;
+    margin:0px;
+  }
+  #heading
+  { color: green;
+    padding:25px;
+  }
+  #headericon
+  {
+    float:left;
+    width:60px;
+  }
+  #header
+  {
+    width:1500px;
+    height:150px;
+    background-color:;
+    border-bottom:5px solid green;
+  }
+  #footer
+  {
+    width:1500px;
+    height:500px;
+    background-image:url(images/milkyway.jpg);
+  }
+  #pageSec ul
+  {
+
+    float:right;
+    clear: left;
+  }
+  #pageSec ul li
+  {
+    display:inline;
+    font-size: 20px;
+    padding:10px 30px;
+    border-radius: 0.25cm;
+    border: 1.5px solid green;
+  }
+  .selected
+  {
+    background-color: MediumSeaGreen;
+  }
+  .selected a
+  {
+    text-decoration: none;
+    color: white;
+  }
+  #pageSec a[class="notselect"]
+  {
+    text-decoration:none;
+    color: green;
+
+  }
+  #pageSec a:hover
+  {
+    text-decoration: none;
+    color:white;
+  }
+  #pageSec ul li:hover
+  {
+    background-color: MediumSeaGreen;
+  }
+  #body{
+    clear: right;
+    text-align: center;
+    color: green;
+  }
+  #pageHeading{
+    font-family: cursive;
+    clear: right;
+    text-align: center;
+  }
+  .dropdown {
+    position:relative;
+    display:inline-block;
+    color:gold;
+  }
+  .dropdown-content
+  {
+    display:none;
+    position:absolute;
+    min-width: 500px;
+    min-height: 500px;
+    background-color: chocolate;
+    color: white;
+  }
+  .dropdown:hover .dropdown-content
+  {
+    display:block;
+  }
+  .dropdown-content a{
+    padding: 10px 20px;
+    display:block;
+  }
+  .para{
+    font-size: 20px;
+  }
+  .img{
+    height:500px;
+    width: 1500px;
+  }

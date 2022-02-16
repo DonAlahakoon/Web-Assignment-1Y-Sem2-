@@ -1,0 +1,63 @@
+  #container
+  {
+    width:1500px;
+    height:3000px;
+  }
+  #header
+  {
+    width:1500px;
+    height:150px;
+    background-color:;
+    border-bottom:5px solid green;
+  }
+  #headericon
+  {
+    width:60px;
+    float:left;
+  }
+  #heading
+  {
+    color:green;
+    padding:25px;
+  }
+  #pageSec ul
+  {
+
+    float:right;
+    clear: left;
+  }
+  #pageSec ul li
+  {
+    display:inline;
+    font-size: 20px;
+    padding:10px 30px;
+    border-radius: 0.25cm;
+    border: 1.5px solid green;
+  }
+  #pageSec a[class="notselect"]
+  {
+    text-decoration:none;
+    color: green;
+
+  }
+  #pageSec a:hover
+  {
+    text-decoration: none;
+    color:white;
+  }
+  #pageSec ul li:hover
+  {
+    background-color: MediumSeaGreen;
+  }
+  .selected{
+    background-color: mediumseagreen;
+  }
+  .selected a{
+    color:white;
+    text-decoration: none;
+  }
+  #body
+  {
+    text-align:center;
+    color: green;
+  }

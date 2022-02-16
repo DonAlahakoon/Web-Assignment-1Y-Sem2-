@@ -1,0 +1,93 @@
+  #container
+  {
+    width:1500px;
+    height:3000px;
+  }
+  #heading
+  {
+    color: green;
+    padding:25px;
+  }
+  #headericon
+  {
+    float:left;
+    width:60px;
+  }
+  #header
+  {
+    width:1500px;
+    height:150px;
+    border-bottom:5px solid green;
+
+  }
+  #pageSec ul
+  {
+    float:right;
+    clear: left;
+  }
+  #pageSec ul li
+  {
+    display:inline;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 0.25cm;
+    border: 1.5px solid green;
+  }
+  #pageSec a[class="notselect"]
+  {
+    text-decoration:none;
+    color: green;
+  }
+  #pageSec a:hover
+  {
+    text-decoration:none;
+    color:white;
+  }
+  #pageSec ul li:hover
+  {
+    background-color:mediumseagreen;
+  }
+  .selected{
+    background-color:mediumseagreen;
+  }
+  .selected a{
+    color:white;
+    text-decoration: none;
+  }
+  #topic
+  {
+    clear: right;
+    text-align: center;
+    color: green;
+    font-size:25px;
+  }
+  #content
+  {
+   color:green;
+   font-size:20px;
+   padding-left:5em;
+   padding-right:5em;
+   text-align:center;
+   }
+  .heading
+  {
+   color:green;
+   padding-left:1em;
+  }
+  img.human
+  {
+   width:500px;
+   height:400px;
+   float:left;
+  }
+  p.activities
+  {
+   font-size:25px;
+   margin:80px;
+   padding-top:2em;
+   padding-left:2em;
+   padding-right:1em;
+   padding-bottom:2em;
+   border:5px solid red;
+   overflow:hidden;
+   }

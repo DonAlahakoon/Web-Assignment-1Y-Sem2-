@@ -4,111 +4,7 @@
   <meta charset="UTF-8">
   <title>Current Threats</title>
   </head>
-
-  <style>
-          #container
-          {
-            width:1500px;
-            height:3000px;
-            margin:0px;
-          }
-          #heading
-          { color: green;
-            padding:25px;
-          }
-          #headericon
-          {
-            float:left;
-            width:60px;
-          }
-          #header
-          {
-            width:1500px;
-            height:150px;
-            background-color:;
-            border-bottom:5px solid green;
-          }
-          #footer
-          {
-            width:1500px;
-            height:500px;
-            background-image:url(images/milkyway.jpg);
-          }
-          #pageSec ul
-          {
-
-            float:right;
-            clear: left;
-          }
-          #pageSec ul li
-          {
-            display:inline;
-            font-size: 20px;
-            padding:10px 30px;
-            border-radius: 0.25cm;
-            border: 1.5px solid green;
-          }
-          #selected
-          {
-            background-color: MediumSeaGreen;
-          }
-          #selected a
-          {
-            text-decoration: none;
-            color: white;
-          }
-          #pageSec a
-          {
-            text-decoration:none;
-            color: green;
-
-          }
-          #pageSec a:hover
-          {
-            text-decoration: none;
-            color:white;
-          }
-          #pageSec ul li:hover
-          {
-            background-color: MediumSeaGreen;
-          }
-          #body{
-            clear: right;
-            text-align: center;
-            color: green;
-          }
-          #pageHeading{
-            font-family: cursive;
-            clear: right;
-            text-align: center;
-          }
-          .dropdown {
-            position:relative;
-            display:inline-block;
-            color:gold;
-          }
-          .dropdown-content
-          {
-            display:none;
-            position:absolute;
-            min-width: 500px;
-            min-height: 500px;
-            background-color: chocolate;
-            color: white;
-          }
-          .dropdown:hover .dropdown-content
-          {
-            display:block;
-          }
-          .para{
-            font-size: 20px;
-          }
-          .img{
-            height:500px;
-            width: 1500px;
-          }
-
-  </style>
+  <link rel="stylesheet" href="CurrentThreats.css">
 
   <body>
     <div id="container">
@@ -117,9 +13,9 @@
     <h2 id="heading">ProtectEarth</h2>
     <div id="pageSec">
     <ul>
-      <li><a href="ClimateChange.html">Home</a></li>
-      <li><a href="whatIsCC.html">What is climate change</a></li>
-      <li  id="selected"><a href="CurrentThreats.html" id="dropdown">Current Threats</a>
+      <li><a class="notselect" href="ClimateChange.html">Home</a></li>
+      <li><a class="notselect" href="whatIsCC.html">What is climate change</a></li>
+      <li  class="selected"><a href="CurrentThreats.html" class="dropdown">Current Threats</a>
         <div class="dropdown-content">
           <a href="#GW">Global Warming</a>
           <a href="#D">Deforestation</a>
@@ -129,8 +25,8 @@
         </div>
 
       </li>
-      <li><a href="WhatCanWeDo.html">What can we do?</a></li>
-      <li><a href="#">...</a></li>
+      <li><a class="notselect" href="WhatCanWeDo.html">What can we do?</a></li>
+      <li><a class="notselect" href="#">...</a></li>
     </ul>
   </div>
  </div>

@@ -70,6 +70,10 @@
     text-align: center;
     color: green;
     font-family:Arial,Helvetica,sans-serif;
+    line-height: 2em;
+
+    width:90%;
+    margin:auto;
   }
   #pageHeading{
     font-family: Tahoma;
@@ -102,13 +106,15 @@
   .mainpara{
     font-family: cursive;
     font-size: 20px;
-    font-weight: bold;
+    font-weight:800;
     font-style: italic;
     margin:20px 0px;
-    border:3px #555555 dashed;
+    border:3.5px green dashed;
     padding:30px;
 
-    color:#555555;
+    background: #798EA4;
+
+    color:#363945;
   }
   .para{
     padding:20px 70px;

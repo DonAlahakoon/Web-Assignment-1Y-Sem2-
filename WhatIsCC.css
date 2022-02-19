@@ -68,6 +68,7 @@
    padding-left:5em;
    padding-right:5em;
    text-align:center;
+   
    }
   .heading
   {
@@ -76,18 +77,47 @@
   }
   img.human
   {
-   width:500px;
-   height:400px;
-   float:left;
+   text-align: left;
+   color: white!important;
+   background:rgba(0,0,0,.6);
   }
   p.activities
   {
    font-size:25px;
-   margin:80px;
-   padding-top:2em;
-   padding-left:2em;
-   padding-right:1em;
-   padding-bottom:2em;
+   color:Red;
    border:5px solid red;
    overflow:hidden;
+   text-align:center;
+   background-image:url("Images/human.png");
+   width:1490px;
+   height:200px;
+   padding-top:5em;
    }
+   .greenhouse
+   {
+       padding-left:2em;
+       color:Green;
+   }
+
+#gases 
+{
+padding-left:5em;
+padding-right:5em;
+font-size:20px;
+}
+.risingemissions
+{
+    padding-left:2em;
+color:green;
+}
+
+.causes
+{   padding-left:5em;
+padding-right:5em;
+    font-size:20px;
+}
+
+#greenhouse
+{
+    padding-left:5em;
+}

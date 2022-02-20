@@ -1,0 +1,97 @@
+
+@font-face {
+  font-family: navBarFont;
+  src: url(Love.otf);
+
+}
+div.nav{
+  position: fixed;
+  height:55px;
+  width:100%;
+  background-color: white;
+  margin-top: -8px;
+  margin-left: -8px;
+  z-index: 700;
+}
+li{
+   transition-duration: 0.2s;
+ }
+ul li ul li{
+  transition-duration: 0.2s;
+}
+li a:hover{
+  cursor:pointer;}
+li a{
+  display:block;
+  text-decoration:none;
+  color:#525252;
+  }
+ul {
+  font-family: navBarFont;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 100%;
+  //font-family: Verdana;
+  font-weight:bold;
+  font-size: 100%;
+  font-size: 20px;
+}
+
+ul li {
+  background-color:white;
+  color: #525252;
+  width:110px;
+  height:55px;
+  line-height:50px;
+  display:inline;
+  float: right;
+  padding-left: 10px;
+  //padding-top: 5px;
+  text-align: center;
+  //opacity:90%;
+  //border: 2px solid #761f2f;
+  }
+
+ul li:hover {
+  background-color: #525252;
+  color: white;
+  }
+li :hover{
+  color:white;
+  text-decoration: none;
+  }
+
+ul ul{
+  display:none;
+  }
+
+#guide{
+  width:210px;
+  text-align: left;
+  padding-left: 0px;
+  text-align: center;
+}
+#logo{
+  float: left;
+  width:300px;
+}
+ul li#logo{
+  line-height: 55px;
+}
+ul li:hover>ul{
+  display:block;
+  color: white;
+  }
+ul li ul li{
+  background-color: #525252;
+  width: 200px;
+  text-align: left;
+  }
+ul li ul li a{
+  color:white;
+}
+ul li ul li:hover{
+  background-color:#3B3B3B;
+}

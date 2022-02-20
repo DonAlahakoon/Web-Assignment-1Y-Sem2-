@@ -68,6 +68,8 @@
   }
   .main-box img{
     width:80%;
+    margin:auto;
+    padding:20px 0px;
 
   }
   .main-banner{
@@ -83,10 +85,18 @@
     padding:20px;
     border:5px red dashed;
     margin:20px 0px;
+    width:90%;
+    margin:auto;
+  }
+  #ways{
+    font-family: "Comic Sans MS",cursive,sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: oblique;
   }
   .main-box h1{
     font-family:Tahoma;
-    text-align: center
+    text-align: center;
   }
   .main-group{
     padding:20px;

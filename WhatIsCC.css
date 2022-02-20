@@ -1,3 +1,4 @@
+
   #container
   {
     width:1500px;
@@ -63,11 +64,11 @@
   }
   #content
   {
-   color:green;
-   font-size:20px;
-   padding-left:5em;
-   padding-right:5em;
-   text-align:center;
+   padding:20px;
+    color:#555555;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:22px;
+    text-align:center;
    
    }
   .heading
@@ -80,12 +81,14 @@
    text-align: left;
    color: white!important;
    background:rgba(0,0,0,.6);
+     opacity: 0.6;
+  position: absolute;
   }
   p.activities
   {
    font-size:25px;
-   color:Red;
-   border:5px solid red;
+   color:red;
+   border:5px black;
    overflow:hidden;
    text-align:center;
    background-image:url("Images/human.png");
@@ -101,23 +104,24 @@
 
 #gases 
 {
-padding-left:5em;
-padding-right:5em;
+padding-left:4em;
+padding-right:4em;
 font-size:20px;
+    color:#555555;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:22px;
 }
 .risingemissions
 {
-    padding-left:2em;
-color:green;
+    color:green;
+    font-family:Arial,Helvetica,sans-serif;
 }
 
 .causes
-{   padding-left:5em;
-padding-right:5em;
-    font-size:20px;
-}
-
-#greenhouse
-{
-    padding-left:5em;
+{  
+    color:#555555;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:22px;
+    padding-left:4em;
+    padding-right:4em;
 }

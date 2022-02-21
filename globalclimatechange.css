@@ -98,6 +98,7 @@ div.iconContain:hover{
   margin:10px 20px 10px 20px;
   box-shadow: 5px 3px 10px black;
   transition: transform .2s;
+  border-radius: 4px;
 }
 
 .imglink:hover{
@@ -108,11 +109,9 @@ div.iconContain:hover{
 div.sdg{
 
   background-color:  #46783c;
-  height: 400px;
   width:102%;
-  padding-top: 10px;
+  padding-top: 50px;
   margin-left: -8px;
-  padding-left: 20%;
   padding-bottom: 50px;
   color:white;
   font-family: Love;
@@ -123,18 +122,37 @@ div.sdg h2{
   font-size: 40px;
   font-weight: bold;
   font-family: Myfont;
+  padding-bottom: 20px;
 }
 div.sdg:hover{
   filter: brightness(105%);
 }
 div.sdg img{
-  width:20%;
+  padding-left: 10%;
+  width:24%;
   float:left;
 }
 .sdgPara{
   margin-left: 22%;
-  padding: 10px 10px 10px 10px;
-  width: 33%;
-  border: 2px solid black;
-  height: 240px;
+  width: 45%;
+  font-size: 25px;
+  text-align: justify;
+  font-weight: none;
+  letter-spacing: 2px;
+  line-height: 34px;
+}
+
+.btn{
+  font-family: Mynewfont;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    color: #46783c;
+    box-shadow: 4px 2px 15px black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 26px;
+    border-radius: 5px;
+}
+div a.btn:hover{
+  filter: brightness(120%);
 }

@@ -13,20 +13,20 @@ div.nav{
   margin-left: -8px;
   z-index: 700;
 }
-li{
+.nav li{
    transition-duration: 0.2s;
  }
-ul li ul li{
+.nav ul li ul li{
   transition-duration: 0.2s;
 }
-li a:hover{
+.nav li a:hover{
   cursor:pointer;}
-li a{
+.nav li a{
   display:block;
   text-decoration:none;
   color:#525252;
   }
-ul {
+.nav ul {
   font-family: navBarFont;
   list-style-type: none;
   margin: 0;
@@ -39,7 +39,7 @@ ul {
   font-size: 20px;
 }
 
-ul li {
+.nav ul li {
   background-color:white;
   color: #525252;
   width:110px;
@@ -54,16 +54,16 @@ ul li {
   //border: 2px solid #761f2f;
   }
 
-ul li:hover {
+.nav ul li:hover {
   background-color: #525252;
   color: white;
   }
-li :hover{
+.nav li :hover{
   color:white;
   text-decoration: none;
   }
 
-ul ul{
+.nav ul ul{
   display:none;
   }
 
@@ -77,21 +77,21 @@ ul ul{
   float: left;
   width:300px;
 }
-ul li#logo{
+.nav ul li#logo{
   line-height: 55px;
 }
-ul li:hover>ul{
+.nav ul li:hover>ul{
   display:block;
   color: white;
   }
-ul li ul li{
+.nav ul li ul li{
   background-color: #525252;
   width: 200px;
   text-align: left;
   }
-ul li ul li a{
+.nav ul li ul li a{
   color:white;
 }
-ul li ul li:hover{
+.nav ul li ul li:hover{
   background-color:#3B3B3B;
 }

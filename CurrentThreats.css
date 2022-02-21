@@ -137,6 +137,12 @@
       left: 20%;
       top:25%;
     }
+    .pagedesc h3{
+      padding:20px ;
+      text-align: center;
+      font-size: 40px;
+
+    }
     .topic{
       font-family: Myfont;
       font-size: 100px;

@@ -79,6 +79,8 @@ div.nav{
 }
 .nav ul li#logo{
   line-height: 55px;
+  color: white;
+  background-color:#3B3B3B;
 }
 .nav ul li:hover>ul{
   display:block;

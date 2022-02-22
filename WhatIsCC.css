@@ -1,0 +1,81 @@
+#background{
+	 background-image: url('climatechange.jpg');
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding-left: 60px;
+  padding-top: 300px;
+}
+.row {
+  clear: both;
+  display: table;
+  
+}
+img.im
+{
+	border:15px solid white;
+	  width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+#para{
+  font-family: Love;
+  font-size: 18px;
+  line-height: 40px;
+  width:60%;
+  padding-left: 18%;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+ 
+h1#heading1
+{
+	text-align:center;
+}
+
+.factory
+{
+	width:101%;
+	height:450px;
+}
+
+.container {
+  position: relative;
+
+}
+
+.text-block {
+  position: absolute;
+  align:center;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 2 px;
+  padding-right: 2px;
+}
+
+#polythene
+{
+   
+	border:15px solid white;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+#causes
+{
+	 font-family: Love;
+  font-size: 18px;
+  line-height: 40px;
+  width:60%;
+  padding-left: 18%;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+

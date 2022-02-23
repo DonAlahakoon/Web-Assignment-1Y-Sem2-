@@ -64,7 +64,7 @@
     }
     .topics-container{
       z-index: 600;
-      position: absolute; 
+      position: absolute;
       left:28%;
       top:25%;
     }
@@ -83,7 +83,7 @@
       line-height: 110px;
     }
 
-   
+
     h3{
       padding-left: 20%;
       font-family: Love;
@@ -258,4 +258,47 @@
                                                       .img{
                                                         height:500px;
                                                         width: 100%;
+                                                      }
+
+                                                      div.aboutCont{
+                                                        background-color: #4E4F50;
+                                                        width:102%;
+                                                        padding-top: 50px;
+                                                        margin-left: -8px;
+                                                        padding-bottom: 50px;
+                                                        color:white;
+                                                        height:500px;
+                                                        font-family: Love;
+
+                                                        clear:both;
+                                                      }
+                                                      div.aboutUs{
+                                                        width: 44%;
+                                                        margin-left: 2%;
+                                                        margin-right: 2%;
+                                                        height: 400px;
+                                                        float:left;
+                                                        line-height: 25px;
+
+                                                      }
+                                                      div.aboutCont h3{
+                                                        padding-left: 20px;
+                                                        letter-spacing: 2px;
+                                                      }
+
+                                                      .aboutUs p{
+                                                        margin-left: 30px;
+                                                        font-size: 25px;
+                                                        line-height: 34px;
+                                                        letter-spacing: 3px;
+                                                        text-align:  justify;
+
+                                                        width:90%;
+                                                        padding-left:25px;
+                                                        margin:0;
+                                                      }
+
+                                                      .aboutUs ul li{
+                                                        font-size: 25px;
+                                                        line-height: 30px;
                                                       }

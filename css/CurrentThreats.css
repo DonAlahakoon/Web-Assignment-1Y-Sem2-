@@ -65,8 +65,28 @@
     .topics-container{
       z-index: 600;
       position: absolute;
-      left:28%;
       top:25%;
+      font-family: Myfont;
+      font-weight: bold;
+      text-shadow: 3px 2px 10px white;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .topic{
+      font-size: 140px;
+      letter-spacing: 20px;
+      line-height: 110px;
+    }
+
+    .subtopic1{
+      font-size: 100px;
+      text-shadow: 2px 2px 5px white;
+    }
+
+    .subtopic2{
+      font-size: 40px;
     }
     .pagedesc h3{
       padding:20px ;
@@ -74,14 +94,7 @@
       font-size: 40px;
 
     }
-    .topic{
-      font-family: Myfont;
-      font-size: 100px;
-      font-weight: bold;
-      text-shadow: 7px 7px 24px white, 3px 2px 10px black;
-      letter-spacing: 20px;
-      line-height: 110px;
-    }
+
 
 
     h3{
@@ -256,7 +269,7 @@
 
                                                       }
                                                       .img{
-                                                        height:500px;
+                                                        //height:500px;
                                                         width: 100%;
                                                       }
 
@@ -265,7 +278,7 @@
                                                         width:102%;
                                                         padding-top: 50px;
                                                         margin-left: -8px;
-                                                        padding-bottom: 50px;
+                                                        //padding-bottom: 50px;
                                                         color:white;
                                                         height:500px;
                                                         font-family: Love;
@@ -276,7 +289,7 @@
                                                         width: 44%;
                                                         margin-left: 2%;
                                                         margin-right: 2%;
-                                                        height: 400px;
+                                                        //height: 400px;
                                                         float:left;
                                                         line-height: 25px;
 
@@ -288,7 +301,7 @@
 
                                                       .aboutUs p{
                                                         margin-left: 30px;
-                                                        font-size: 25px;
+                                                        font-size: 20px;
                                                         line-height: 34px;
                                                         letter-spacing: 3px;
                                                         text-align:  justify;
@@ -299,6 +312,6 @@
                                                       }
 
                                                       .aboutUs ul li{
-                                                        font-size: 25px;
+                                                        font-size: 20px;
                                                         line-height: 30px;
                                                       }

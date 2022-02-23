@@ -35,9 +35,9 @@ h1#heading1
 	text-align:center;
 }
 
-.factory
+img#im2
 {
-	width:101%;
+	width:400px;
 	height:450px;
 }
 
@@ -76,6 +76,12 @@ h1#heading1
   padding-left: 18%;
   text-align: justify;
   letter-spacing: 2px;
+}
+
+iframe
+{
+	display: block;
+	margin:0 auto;
 }
 
 

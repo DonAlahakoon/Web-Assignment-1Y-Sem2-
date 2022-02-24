@@ -50,7 +50,7 @@ body{
 #img1{
   width:102%;
   margin-left: -10px;
-  filter: brightness(70%);
+  filter: brightness(60%);
 }
 .animate-fading{
   animation:fading 10s infinite;
@@ -63,30 +63,38 @@ body{
 div.slides-container{
   z-index: 500;
 }
-.topics-container{
-  z-index: 600;
-  position:absolute;
-  left:28%;
-  top:25%;
-}
+
 .pagedesc h3{
   padding:20px ;
   text-align: center;
   font-size: 40px;
 
 }
-.topic{
+.topics-container{
+  z-index: 600;
+  position: absolute;
+  top:30%;
   font-family: Myfont;
-  font-size: 100px;
   font-weight: bold;
-  text-shadow: 7px 7px 24px white, 3px 2px 10px black;
+  text-shadow: 4px 6px 15px white;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topic{
+  font-size: 140px;
   letter-spacing: 20px;
   line-height: 110px;
+}
 
-  align: center;
+.subtopic1{
+  font-size: 100px;
+  text-shadow: 2px 2px 5px white;
+}
 
-  width:100%;
-  margin:auto;
+.subtopic2{
+  font-size: 40px;
 }
 
 
@@ -106,7 +114,6 @@ p{
 }
 div.iconContain{
   background-color:  #647C90;
-  //height: 200px;
   width:102%;
   padding-top: 10px;
   margin-left: -8px;
@@ -281,7 +288,9 @@ div.icon-links{
                                                     width:90%;
                                                     margin:10px;
                                                     border-radius: 18px;
+
                                                   }
+
 
 
                                                   @media(max-width:900px){

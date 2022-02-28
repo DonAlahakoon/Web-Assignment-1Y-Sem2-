@@ -33,7 +33,6 @@ div.slides-container{
 .topics-container{
   z-index: 600;
   position: absolute;
-  //left: 20%;
   top:25%;
   font-family: Myfont;
   font-weight: bold;
@@ -42,7 +41,6 @@ div.slides-container{
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  //width: 200px;
 }
 .topic{
   font-size: 140px;
@@ -119,7 +117,8 @@ div.sdg{
   padding-bottom: 75px;
   color:white;
   font-family: Love;
-  #4E4F50
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 div.sdg h2{
@@ -136,63 +135,58 @@ div.sdg img{
   width:24%;
   float:left;
 }
+div.img{
+  width:77%;
+  float: left;
+  padding-left:9.1%;
+  margin-top: 50px;
+}
 .sdgPara{
   margin-left: 22%;
-  width: 45%;
+  width: 50%;
   font-size: 25px;
   text-align: justify;
   font-weight: none;
   letter-spacing: 2px;
   line-height: 34px;
+  white-space: normal;
 }
 
-.btn{
-  font-family: Mynewfont;
-    padding: 10px 20px 10px 20px;
-    background-color: white;
-    color: #46783c;
-    box-shadow: 4px 2px 15px black;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-size: 26px;
-    border-radius: 5px;
-}
-div a.btn:hover{
-  filter: brightness(120%);
+#sdgimg{
+  float:left;
+  width:19%;
+  margin-left: 1%;
+  padding: 0 0 5px 0;
 }
 div.aboutCont{
   background-color: #4E4F50;
   width:102%;
-  padding-top: 50px;
+  padding-top: 15px;
   margin-left: -8px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   color:white;
-  height:500px;
   font-family: Love;
+  overflow: hidden;
 }
 div.aboutUs{
-  width: 44%;
+  width: 45%;
   margin-left: 2%;
   margin-right: 2%;
-  height: 400px;
   float:left;
   line-height: 25px;
-
 }
+
 div.aboutCont h3{
-  padding-left: 20px;
+  padding-left: 30px;
   letter-spacing: 2px;
+  font-size: 22px;
 }
 
 .aboutUs p{
   margin-left: 30px;
-  font-size: 25px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 28px;
   letter-spacing: 3px;
   text-align:  justify;
 }
 
-.aboutUs ul li{
-  font-size: 25px;
-  line-height: 30px;
-}
